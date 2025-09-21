@@ -1,0 +1,199 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #f1f5f9;
+  color: #111827;
+  line-height: 1.6;
+}
+
+/* Header */
+.header {
+  background: #1d4ed8;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header h1 {
+  font-size: 1.5rem;
+}
+
+.header button {
+  background: white;
+  color: #1d4ed8;
+  border: none;
+  padding: 0.4rem 0.8rem;
+  margin-left: 0.5rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.header button:hover {
+  background: #e0e7ff;
+}
+
+/* Layout */
+.container {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem 2rem;
+}
+
+/* Left Filters */
+.filters {
+  width: 220px;
+  background: white;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  font-size: 0.9rem;
+}
+
+.filters h3 {
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  color: #1e293b;
+}
+
+.filters input, 
+.filters select {
+  margin-bottom: 1rem;
+  padding: 0.4rem;
+  width: 100%;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+}
+
+/* Job List */
+.job-list {
+  flex: 1;
+}
+
+.job-list h2 {
+  margin-bottom: 1rem;
+  color: #1e293b;
+}
+
+.job-card {
+  background: white;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  transition: transform 0.1s ease;
+}
+
+.job-card:hover {
+  transform: translateY(-2px);
+}
+
+.job-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+  color: #111827;
+}
+
+.job-card p {
+  font-size: 0.9rem;
+  color: #6b7280;
+  margin-bottom: 0.6rem;
+}
+
+.job-card button {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  margin-right: 0.5rem;
+}
+
+.job-card button:hover {
+  background: #1e40af;
+}
+
+.job-card button[style*="red"] {
+  background: #ef4444 !important;
+}
+
+.job-card button[style*="red"]:hover {
+  background: #b91c1c !important;
+}
+
+/* Right Job Detail */
+.job-detail {
+  width: 300px;
+  background: white;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  font-size: 0.9rem;
+}
+
+.job-detail h2 {
+  font-size: 1.2rem;
+  margin-bottom: 0.4rem;
+  color: #111827;
+}
+
+.job-detail h4 {
+  color: #2563eb;
+  margin-bottom: 0.8rem;
+}
+
+.job-detail p {
+  margin-bottom: 1rem;
+  color: #374151;
+}
+
+.job-detail button {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 0.6rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.job-detail button:hover {
+  background: #1e40af;
+}
+
+/* Add Job Form (Recruiter) */
+form input, form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 0.6rem;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+}
+
+form textarea {
+  resize: vertical;
+  min-height: 60px;
+}
+
+form button {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background: #1e40af;
+}
