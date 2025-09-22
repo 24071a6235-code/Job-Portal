@@ -25,13 +25,14 @@ The app uses a **mock API** for sample jobs and **localStorage** for persistence
 
 ---
 
+
+
 ## 📁 Project Structure
 
-job-portal/
-├── index.html # Entry point, loads React + Babel
-├── style.css # Custom styling
-├── app.js # React app logic
-└── README.md # Project documentation
+- 📄 `index.html` – Entry point, loads React + Babel  
+- 🎨 `style.css` – Custom styling  
+- ⚛️ `app.js` – React app logic  
+- 📘 `README.md` – Project documentation
 
 ---
 
