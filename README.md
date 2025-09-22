@@ -4,7 +4,6 @@ JobHub – Job Portal
 
 JobHub is a simple React-based job portal where job seekers can browse and apply for jobs, and recruiters can add or remove job postings.
 The app uses a mock API for sample jobs and localStorage for persistence.
-
 ✨ Features
 
 🔎 Search & Filter jobs by title or company
@@ -29,14 +28,12 @@ LocalStorage
 
 Mock API: jsonfakery.com/jobs
 
-📂 Project Structure
+Project Structure
 /job-portal
   ├── index.html      # Entry point, loads React + Babel
   ├── style.css       # Custom styling
   ├── app.js          # React app logic
-  └── README.md       # Documentation
-
-⚙️ How It Works
+  └── README.md       # Documentation⚙️ How It Works
 
 On load, jobs are fetched from the mock API and merged with any locally saved jobs.
 
@@ -47,6 +44,7 @@ Recruiters → Add jobs via form or delete jobs.
 Seekers → Search, filter, view details, and apply for jobs.
 
 Applications and recruiter-added jobs are stored in localStorage.
+
 📌 Future Improvements
 
 Authentication (separate dashboards for recruiters & seekers)
@@ -56,3 +54,4 @@ Backend integration (replace localStorage with real database)
 Saved jobs & application tracking
 
 Pagination & advanced filters
+
