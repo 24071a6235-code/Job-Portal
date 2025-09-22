@@ -1,5 +1,5 @@
 # Job-Portal
-# 🎯 JobHub – Job Portal
+# 🎯 JobHub 
 
 ## 📌 Overview
 **JobHub** is a React-based job portal where job seekers can browse and apply for jobs, while recruiters can add or remove job postings.  
@@ -25,13 +25,13 @@ The app uses a **mock API** for sample jobs and **localStorage** for persistence
 
 ---
 
-## 📂 Project Structure
-job-portal/
-│── index.html # Entry point, loads React + Babel
-│── style.css # Custom styling
-│── app.js # React app logic
-│── README.md # Project documentation
+## 📁 Project Structure
 
+job-portal/
+├── index.html # Entry point, loads React + Babel
+├── style.css # Custom styling
+├── app.js # React app logic
+└── README.md # Project documentation
 
 ---
 
